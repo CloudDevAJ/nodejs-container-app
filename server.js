@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('Hello, Dockerized Node.js App! - CI/CD Working! from second PC');
+    res.send('Hello, Dockerized Node.js App! - CI/CD Working! from Home PC');
 });
 
 app.listen(PORT, () => {
